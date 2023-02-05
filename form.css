@@ -1,0 +1,88 @@
+section#contact{
+    height:700px;
+    width: 100%;
+    max-height: 700px;
+
+}
+
+.endPage{
+    padding-left:15rem;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    height:700px;
+}
+
+.form{
+    
+    float: right;
+    width: 450px;
+    padding-top:30px ;
+
+    margin-left:50px;
+    background:rgb(26, 33, 40);
+    text-align:center;
+    height:530px;  
+}
+
+.box{
+    margin-top: 20px;
+    padding:20px;
+    margin-bottom:10px;;
+    width:350px;
+    font-size:17px;
+    height:60px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-color:rgb(255, 253, 253);
+    border-width:2px;
+}
+.box:hover{
+    border: solid rgb(152, 122, 16) 2px;
+}
+#sub{
+    cursor:pointer;
+    padding:15px;
+    background-color:rgb(152, 122, 16);
+    border-style: none;
+    text-transform:uppercase;
+    width:180px;
+    transform: translate(8px,30px);
+    font-size:20px;
+    height:60px;
+    font-family:'Poppins',Arial,sans-serif;
+    transition: 200ms ease-in-out;
+
+}
+#sub:hover{
+    border:solid white 1px;
+    border-radius: 30px;
+ 
+}
+
+.contactInfo{
+    position: relative;
+    height:530px;
+    font-family: 'Poppins',Arial,sans-serif;
+    color:white;
+
+ 
+}
+  
+.contact-head{  
+    position: relative;
+    font-size:50px;
+    color:rgb(58, 74, 90);
+    text-shadow: 3px 2px 7px rgb(0, 0, 0);
+    font-weight: 600;
+    left:30px;
+}
+.contact-thru-form{
+    font-size:18px;
+}
+
+
+
+
+
+

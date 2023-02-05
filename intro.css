@@ -1,0 +1,96 @@
+
+section .aboutMyself{
+    width: 100%;
+}
+
+.content2{
+    color:#fff;
+    transform: translateY(100px);
+}
+.opacity2{
+    opacity: 0;
+}
+section .aboutMyself{
+    margin:auto;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    text-align: center;
+    width:700px;
+    height:600px;
+    overflow-y: hidden;
+}
+
+
+.content2{
+
+    font-family: 'Poppins',Arial,sans-serif;
+}
+
+#line1{
+    font-size: 38px;
+    padding-bottom: .5rem;
+   line-height: 80px;
+}
+
+#line2{
+    font-size: 23px;
+    line-height:60px;
+}
+#quote{
+    font-size: 16px;
+    line-height:30px ;
+}
+
+
+
+
+.socialAccs{
+    position: absolute;
+    top:480px;
+}
+
+#text_color{
+color:whitesmoke;
+font-weight:800;
+}
+
+
+     
+
+.my-works, .hireme{
+  margin-top:30px;
+  border-radius: 15px;
+  font-size:17px;
+  position: relative;
+  border:solid 1px #282828;
+  height:45px;
+  width:125px;
+  cursor: pointer;
+  background-color:#303030;
+  color:white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing:0.5px;
+}
+
+.my-works{
+    left:20px;
+}
+.hireme{
+    right:20px;
+}
+
+.my-works:hover, .hireme:hover{
+  transition:0.3s;
+  background-color: whitesmoke;
+  color:#303030;
+  border-style:hidden;
+  box-shadow: 0 0 6px #a7a7a7;
+}
+
+
+
+
+
+
+
